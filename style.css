@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Outfit", sans-serif;
+}
+.box{
+    color: green;
+    display: flex;
+    gap: 2rem;   
+    
+}
+.dexa{
+    margin-top: 1.10rem;
+    color: white;
+}
+.pep{
+    color: white;
+}
+
+.box p{
+text-align: center;
+}
+.brava{
+    font-size: 4rem;
+}
+.fand{
+    position: absolute;
+    right: 8rem;
+}
+.bigbox{
+    background-color: black; 
+     margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center; 
+padding: 3rem; 
+position: relative;
+}
+.dot{
+    display: flex;
+    flex-direction: column;
+    color: green;
+    
+}
+.container2{
+    background:rgb(38, 37, 37);
+    width: 50%;
+    margin: auto 0;
+    padding: 2rem;
+    position: relative;
+    
+}
+.act{
+    text-align: center;
+}
+.dede{
+    color: green;
+    margin-top: rem;
+}
+.actual{
+    color: green;
+    display: flex;
+    justify-content: end;
+    font-size: 4rem;
+}
+.diso{
+    background-color: green;
+    color: black;
+    width: 50px;
+    clip-path: circle(50% at 50% 50%);
+    height: 50px;
+    padding: 5px;
+    position: absolute ;
+    right: 15rem;
+    top: 25rem;
+    z-index: 100;  
+}
+.start{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.val{
+    
+    color: green;
+    font-weight: bold;
+}
+.image{
+    clip-path: ellipse(36% 66% at 48% 69%);
+    border: 2px solid green;
+}
+.imy{
+    display: flex;
+    justify-content: end;
+}
+.example{
+    letter-spacing: 10px;
+    margin-top: 1.10rem;
+}
+
